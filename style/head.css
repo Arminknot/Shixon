@@ -1,0 +1,922 @@
+﻿@font-face {
+    src: url("../font/IRANSansWeb.ttf");
+    font-family: iransansweb;
+}
+
+body {
+    margin: 0;
+}
+
+#head {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 400;
+    background-color: #fff;
+}
+
+#header {
+    background: url("../photo/rt/961107-tpbr.jpg") no-repeat 50% 0%;
+    height: 35px;
+    background-color: rgb(39, 1, 39);
+}
+
+#header1 {
+    width: 100%;
+    background-color: #fff;
+    height: 34px;
+}
+
+#header1>#menu1 {
+    height: 34px;
+    width: 1155px;
+    margin: auto;
+    line-height: 35px;
+}
+
+#header1>#menu1>.cc:hover {
+    background-color: purple;
+}
+
+#header1>#menu1>.first {
+    transition: 0.3s;
+    height: 90%;
+    float: right;
+    font-size: 15px;
+    font-family: iransansweb;
+}
+
+#header1>#menu1>.ft1 {
+    background: url("../photo/icon/25694.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 34px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+#header1>#menu1>.ft2 {
+    background: url("../photo/icon/market-clipart-market-basket-2.png") no-repeat 80% 40%;
+    background-size: 18px;
+    height: 100%;
+    width: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #8d8d8d;
+}
+
+#header1>#menu1>.ft3 {
+    background: url("../photo/icon/user1-256x256.png") no-repeat 78% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 160px;
+    padding-left: 70px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    color: #8d8d8d;
+}
+
+#header1>#menu1>.ft4 {
+    background: url("../photo/icon/25453.png") no-repeat 93% 40%;
+    background-size: 15px;
+    height: 100%;
+    width: 150px;
+    padding-left: 20px;
+    line-height: 35px;
+    border-right: 1px solid #f2f2f2;
+    color: #8d8d8d;
+}
+
+#header1>#menu1>.ft5 {
+    background: url("../photo/icon/149852.png") no-repeat 98% 40%;
+    background-size: 15px;
+    height: 100%;
+    width: 270px;
+    padding-left: 50px;
+    text-align: right;
+    padding-right: 30px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    color: #8d8d8d;
+}
+
+#header1>#menu1>.ft6 {
+    background: url("../photo/icon/Aparat_icon_color_(fa)_black_2014.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 33px;
+}
+
+#header1>#menu1>.ft7 {
+    background: url("../photo/icon/TelegramDesktopPortable_128.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 33px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+#header1>#menu1>.ft8 {
+    background: url("../photo/icon/social-instagram-new-circle-256.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 33px;
+}
+
+#header1>#menu1>.ft9 {
+    background: url("../photo/icon/google_plus-square-social-media-128.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 33px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+#header1>#menu1>.ft10 {
+    background: url("../photo/icon/facebook.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 33px;
+}
+
+#header1>#menu1>.ft11 {
+    background: url("../photo/icon/twitter.png") no-repeat 40% 40%;
+    background-size: 20px;
+    height: 100%;
+    width: 33px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+#header2 {
+    background-color: #fff;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    height: 41px;
+}
+
+#header2>#menu2 {
+    position: relative;
+    background: url("../photo/rt/logo.png") no-repeat 0 50%;
+    width: 1155px;
+    height: 41px;
+    margin: auto;
+    line-height: 40px;
+}
+
+#header2>#menu2>.items:hover {
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+}
+
+#header2>#menu2>.items {
+    transition: 0;
+    height: 41px;
+    float: right;
+    font-size: 15px;
+    color: #8d8d8d;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: iransansweb;
+}
+
+#header2>#menu2>.item1:hover>#zan {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#zan {
+    transition: 0.3s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    width: 1155px;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    background: #F9FAFF url(../photo/pic/women.jpg) no-repeat;
+    background-size: 380px;
+}
+
+#header2>#menu2>.items>#zan>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#zan>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#zan>.zan3 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#zan>.zan4 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#zan>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#zan>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#zan>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#zan>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#zan>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#sard:hover {
+    cursor: pointer;
+}
+
+#sar:hover {
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#zan>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item2:hover>#mard {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#mard {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/men.jpg) no-repeat;
+    background-size: 380px;
+    width: 1155px;
+    position: absolute;
+    left: 0%;
+    top: 70px;
+}
+
+#header2>#menu2>.items>#mard>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#mard>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#mard>.zan3 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#mard>.zan4 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#mard>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#mard>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#mard>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#mard>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#mard>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#mard>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item3:hover>#bach {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#bach {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/child.png) no-repeat;
+    background-size: 300px;
+    width: 1155px;
+    position: absolute;
+    left: 0%;
+    top: 70px;
+}
+
+#header2>#menu2>.items>#bach>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#bach>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#bach>.zan3 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#bach>.zan4 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#bach>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#bach>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#bach>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#bach>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#bach>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#bach>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item4:hover>#dress {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#dress {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/dress.jpg) no-repeat;
+    background-size: 380px;
+    width: 1155px;
+    position: absolute;
+    left: 0%;
+    top: 70px;
+}
+
+#header2>#menu2>.items>#dress>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items:hover>#dress>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#dress>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#dress>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#dress>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#dress>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#dress>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item5:hover>#bag {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#bag {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/bag_shoes_menu.jpg)no-repeat;
+    width: 1155px;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+}
+
+#header2>#menu2>.items>#bag>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#bag>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#bag>.zan3 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#bag>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#bag>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#bag>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#bag>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#bag>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#bag>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item6:hover>#perfum {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+    height: 300px;
+}
+
+#header2>#menu2>.items>#perfum {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background-image: url(../photo/pic/men-perfume.jpg), url(../photo/pic/women-perfume.jpg);
+    background-repeat: no-repeat;
+    background-position: 69px 6px, 629px 6px;
+    background-color: #F9FAFF;
+    width: 1155px;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+}
+
+#header2>#menu2>.items>#perfum>.zan1 {
+    margin-right: 20px;
+    margin-left: 490px;
+}
+
+#header2>#menu2>.items:hover>#perfum>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#perfum>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    width: 70px;
+    line-height: 25px;
+    display: none;
+}
+
+#header2>#menu2>.items>#perfum>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.item7:hover>#access {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#access {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/accessories.jpg)no-repeat;
+    width: 1155px;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+}
+
+#header2>#menu2>.items>#access>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#access>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#access>.zan3 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#access>.zan4 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#access>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#access>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#access>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#access>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#access>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#access>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item8:hover>#makeup {
+    z-index: 1;
+    top: 100%;
+    cursor: default;
+    opacity: 1;
+}
+
+#header2>#menu2>.items>#makeup {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/makeup.jpg) no-repeat;
+    width: 1155px;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+}
+
+#header2>#menu2>.items>#makeup>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#makeup>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#makeup>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#makeup>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#makeup>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#makeup>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#makeup>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#makeup>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.item9:hover>#homee {
+    z-index: 1;
+    top: 100%;
+    opacity: 1;
+    cursor: default;
+}
+
+#header2>#menu2>.items>#homee {
+    transition: 0.5s;
+    opacity: 0;
+    border-top: 3px solid purple;
+    background: #F9FAFF url(../photo/pic/Home-Appliances.jpg)no-repeat;
+    background-size: 260px;
+    width: 1155px;
+    position: absolute;
+    top: 70px;
+    left: 0%;
+}
+
+#header2>#menu2>.items>#homee>.zan1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header2>#menu2>.items>#homee>.zan2 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#homee>.zan3 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#homee>.zan4 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items>#homee>.zan5 {
+    margin-right: 20px;
+}
+
+#header2>#menu2>.items:hover>#homee>.zanan {
+    display: block;
+}
+
+#header2>#menu2>.items>#homee>.zanan {
+    z-index: 2;
+    float: right;
+    padding-left: 10px;
+    display: none;
+}
+
+#header2>#menu2>.items>#homee>.zanan>.zir:hover {
+    color: rgb(142, 68, 173);
+    cursor: pointer;
+}
+
+#header2>#menu2>.items>#homee>.zanan>.zir {
+    transition: 0.2s;
+    list-style: none;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    border-top: 1px solid #ccc;
+    color: #808080;
+    height: 32px;
+    line-height: 30px;
+    background: url("../photo/icon/12.png")no-repeat 88% 45%;
+    background-size: 10px;
+}
+
+#header2>#menu2>.items>#homee>.zanan>#sar {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#header2>#menu2>.items>#homee>.zanan>#sard {
+    color: rgb(142, 68, 173);
+    height: 38px;
+    list-style: none;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#header2>#menu2>.pur {
+    color: #e040fb;
+}
+
+#header2>#menu2>.it1 {
+    font-weight: bold;
+    color: #a0f;
+}
